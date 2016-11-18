@@ -1,1 +1,161 @@
-/* Inserta tu CSS aqui */
+ nav { 
+	position: absolute;
+    left: 400px;
+    top: 15px;
+    bottom: 350px;
+    text-align: center;
+    color: #726E66;
+    }
+li { 
+    display: inline-block;
+    font-size: 20px;
+    color: #614772;
+    position: relative;
+    left: 400px;
+    padding: 15px;
+    } 
+li{
+text-shadow:
+-6px -1px 1px rgba(255, 1, 0, 0.4);
+color: #2A0A12;
+font-size: 30px;
+font-family: 
+}
+h1 { 
+    font-size: 2em;
+    color:#F5DEB3;
+    }
+h1 {
+color:#F5DEB3;
+text-shadow:
+-2px -2px 0 #000, 
+1px -2px 0 #000,
+-2px 2px 0 #000,
+2px 2px 0 #000;
+font-size: 30px;
+font-family: 'Boogaloo', cursive;
+}
+
+
+.fondo { 
+    background-image: url(../images/image.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    position: relative;  
+} 
+
+.blanco { background-image: url(../images/tile1.png);
+           height: 500px; } 
+
+.uno { border: 1px solid;
+       padding: 10px;
+       position: relative;
+       left: 60px;
+       top: 100px;
+       width: 300px;
+       height: 300px;
+    } 
+
+.dos {  
+    padding-top: 30px;
+    padding-left: 150px;
+    font-size: 30px;
+    color:#770F7A;
+
+
+} 
+
+.tres { padding-top: 50px;
+    text-align:center;
+    display: inline-block;
+    position:relative;
+    bottom: 300px;
+    width: 840px;
+    left: 400px;
+    font-size: x-large;
+} 
+.tres {
+color: #D2B48C;
+text-shadow: 0px 0px 8px #D2B48C;
+font-size: 30px;
+font-family: 'Orbitron', sans-serif;
+   }
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+h3{ padding-top: 30px;
+    
+    font-size: 30px;
+    color:#770F7A;
+    text-align: center;
+} 
+h3{
+color: #770F7A;
+text-shadow: 0px -1px 0px #424242;
+font-size: 50px;
+font-family: 'Unna', serif;
+}
+
+h5{ padding-top: 30px;
+    font-size: 25px;
+    color:#770F7A;
+    text-align: center;
+} 
+h5{
+color: #770F7A;
+text-shadow: 0px -1px 0px #424242;
+font-size: 30px;
+font-family: 'Unna', serif;
+}
+
+.negro { 
+    background-color: #FFF;
+    padding-left: 100px;}
+
+.redondo { 
+    border: 1px solid #6B1881;
+    padding: 10px;
+    border-radius: 50%;
+    width: 200px;
+    height:200px;
+    margin: 20px;
+}
+
+.fin { 
+    background-image: url(../images/tile2.png);
+    height: 400px;
+ } 
+
+h6 { text-align: center;
+     color:#6B1881;
+     padding-top: 100px;
+     font-size: 2em;
+     }
+
+.r { position: relative;
+     left: 300px;
+     padding-top: 40px;
+     padding: 30px;
+      }     
+.col-4{
+    display: inline-block;
+}
+.col-4 img:hover{
+    width: 250px;
+    transition: 500ms all;
+}

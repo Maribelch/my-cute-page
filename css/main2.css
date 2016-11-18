@@ -1,0 +1,30 @@
+.negro { 
+    background-color: #FFF;
+    padding-left: 100px;
+display: inline-block;}
+
+.redondo { 
+    border: 1px solid #6B1881;
+    padding: 10px;
+    border-radius: 30%;
+    width: 500px;
+    height:500px;
+    margin: 5px;
+    position: relative;
+}
+.po{
+ font-family:fantasy; 
+margin-left: 800px;
+position: relative;
+    bottom: 500px;
+    font-size: 60px;
+    color:darkturquoise;
+}
+li{
+    font-family: fantasy;
+    margin-left: 700px;
+    position: relative;
+    bottom: 500px;
+    font-size: 30px;
+    height: 50px;
+}
